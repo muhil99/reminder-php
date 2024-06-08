@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+html,
+
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-size: unset;
+  font-family: "Lora", sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+  body {
+    height: 100vh;
+    font-family: "Open Sans", sans-serif;
+    /* overflow: hidden; */
+    background-color: #f3f5fa;
+  }
+
+  .reminder-head {
+    margin-top: 10px !important;
+  }
+
+  .goback {
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background-color: gray;
+    padding: 10px;
+  }
+  .reminder-form-section {
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .reminder-heading {
+    font-size: 19px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: #37517e;
+  }
+  .reminder-form {
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .reminder-view-form {
+    margin-top: 15px;
+  }
+  .view-head {
+    font-size: 17px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+  }
+  .reminder-table-head {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 15px;
+  }
